@@ -9,11 +9,13 @@
             td{
                 border: 1px solid black;
             }
+            table{
+                border-collapse: collapse;
+            }
         </style>
         <title>Document</title>
     </head>
     <body>
-        <table id="demo" >
-        </table>
+        <table id="demo" ></table>
     </body>
 </html>
