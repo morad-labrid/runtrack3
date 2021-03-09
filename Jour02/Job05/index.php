@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
-<body id="body">
+<body>
 
-    <textarea name="keylogger" id="keylogger" cols="30" rows="10"></textarea>
+    <footer></footer>
     <script src="script.js"></script>
 
 </body>
-</html>
+</html> 
