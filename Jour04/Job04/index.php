@@ -9,8 +9,8 @@
     <title>Document</title>
 </head>
 
-<body>
-
+<body> 
+    <input type="text" name="id" id="id">
     <button id="button">Afficher les users</button>
     <table id="demo">
     </table>
