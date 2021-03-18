@@ -17,6 +17,7 @@ $("#button").click(function() {
                                     type: "POST",
                                     data: { 'signUpSuccess': 1, 'nom': nom, 'prenom': prenom, 'email': email, 'password': password },
                                     success: function() {
+
                                         $('#error').css("display", "block");
                                         document.getElementById('error').innerHTML = "<li>Vous etes inscrit</li>";
                                     }

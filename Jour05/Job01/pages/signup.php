@@ -2,8 +2,7 @@
     session_start();
     require '../pages/class.php';
     $user = new utilisateurs();
-    $_POST['signUpVerify'] = "";
-    $_POST['signUpSuccess'] = "";
+
     
     
     if ($_POST['signUpVerify']) {
