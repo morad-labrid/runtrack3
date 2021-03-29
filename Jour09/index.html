@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/d34f22fe3f.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>LABRID Morad - développeur Web web Full stack</title>
+</head>
+
+<body>
+    <header>
+        <img src="assets/img/promo.svg" alt="logo">
+        <nav>
+
+            <a id="btnHome">Accueil</a>
+            <a id="btnAbout">About</a>
+            <a id="btnPortfolio">Portfolio</a>
+            <a id="btnContact">Contact</a>
+            <i id="close" class="fas fa-times"></i>
+        </nav>
+        <i id="menu" class="fas fa-bars"></i>
+    </header>
+    <main id="home">
+        <section class="home">
+            <div class="name">
+                <h3 class="firstName">MORAD</h3>
+                <h3 class="lastName color">LABRID</h3>
+                <p>DÉVELOPPEUR WEB EN FORMATION...</p>
+            </div>
+            <div class="left">
+            </div>
+            <div class="right">
+                <div class="code">
+                    <pre>
+                        //entrer une couleur dans
+                        la variable $color//
+                                    |
+                                    V
+                        $color ==          ; <=
+                        $button == $_POST['valider'];
+
+                        if(isset($button)){
+                            style.css == $color;
+                        }
+                    </pre>
+                    <input type="text" class="color" name="color" id="input" value="#000000">
+                    <input type="submit" id="submit" value="valider">
+                </div>
+            </div>
+            <p id="about"></p>
+
+        </section>
+        <!-- SECTION DEUX // PARTIE ABOUT ME :D -->
+        <section class="about">
+            <div class="left">
+            </div>
+            <div class="right">
+                <div>
+                    <h3 class="color">à propos de moi<span>about</span></h3>
+                </div>
+                <br><br><br>
+                <hr>
+                <br><br>
+                <p>Je m'appelle Morad LABRID. Je suis un développeur Web, et je suis très passionné et dévoué à mon travail.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui dolore dolor ab odit consequatur perferendis exercitationem <br> necessitatibus saepe tenetur, laborum quod facilis quos suscipit! Quisquam sequi est soluta natus cupiditate.</p>
+                <br>
+                <div class="button">
+                    <button class="colorButton">Télécharger mon cv</button>
+                </div>
+            </div>
+        </section>
+        <!-- SECTION TROIS // PARTIE SLIDER -->
+        <section class="slide">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm">
+                        <img src="assets/img/icons/website.svg" alt="icon">
+                        <h3>Mon code</h3>
+                        <p>Je réalise la partie front-end (HTML - CSS - JAVASCRIPT) et back-end(PHP - SQL) d'applications web. </p>
+                    </div>
+                    <div class="col-sm">
+                        <img src="assets/img/icons/message.svg" alt="icon">
+                        <h3>Méthode de travail</h3>
+                        <p>Je travaille bien en équipe avec google meet et Git. Je peux passer des heures seule devant un écran mais travailler en groupe, ça plus intéressant !</p>
+                    </div>
+                    <div class="col-sm">
+                        <img src="assets/img/icons/drinks.svg" alt="icon">
+                        <h3>Loisir</h3>
+                        <p>Passionné par l'informatique et la technologie depuis petit, j’aime aussi réparer les ordinateur et les smartphone. <br><br> j’aime tous les sports en generale mais mon sport preferé est le foot</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <p id="portfolio"></p>
+        <br><br><br><br><br><br>
+        <!-- SECTION QUATRE // PARTIE PORTFOLIO -->
+        <section class="portfolio">
+            <div>
+                <h3 class="color">Projets realisés par moi<span>PORTFOLIO</span></h3>
+            </div>
+            <div class="boxs">
+                <div class="box">
+                    <a href="#">
+                        <div class="img"></div>
+                    </a>
+                    <h4><a href="">Boutique en ligne</a></h4>
+                    <p>HTML - CSS - PHP(POO) - SQL</p>
+                </div>
+                <div class="box">
+                    <a href="projects/app favorites/app-favorites.html">
+                        <div class="img"></div>
+                    </a>
+                    <h4><a href="">App Favorites</a></h4>
+                    <p>HTML - CSS</p>
+                </div>
+                <div class="box">
+                    <a href="projects/IDE/ide.html">
+                        <div class="img"></div>
+                    </a>
+                    <h4><a href="">IDE</a></h4>
+                    <p>HTML - CSS</p>
+                </div>
+                <div class="box">
+                    <a href="projects/portfolio/portfolio.html">
+                        <div class="img"></div>
+                    </a>
+                    <h4><a href="">Portfolio</a></h4>
+                    <p>HTML - CSS</p>
+                </div>
+                <div class="box">
+                    <a href="#">
+                        <div class="img"></div>
+                    </a>
+                    <h4>
+                        <a href=""></a>
+                    </h4>
+                    <p></p>
+                </div>
+                <div class="box">
+                    <a href="#">
+                        <div class="img"></div>
+                    </a>
+                    <h4>
+                        <a href=""></a>
+                    </h4>
+                    <p></p>
+                </div>
+            </div>
+            <br><br><br>
+            <div class="button">
+                <a href="https://github.com/morad-labrid?tab=repositories" target="_blank"><button class="colorButton">Voir Tous les projets</button></a>
+            </div>
+            <p id="skills"></p>
+        </section>
+        <section class="skills">
+            <div class="row row-cols-3">
+                <div class="col">
+                    <img src="assets/img/icons/html-5.svg" alt="HTML logo">
+                </div>
+                <div class="col">
+                    <img src="assets/img/icons/css.svg" alt="CSS logo">
+                </div>
+                <div class="col">
+                    <img src="assets/img/icons/javascript.svg" alt="JAVASCRIPT logo">
+                </div>
+                <div class="col">
+                    <img src="assets/img/icons/php.svg" alt="PHP logo">
+                </div>
+                <div class="col">
+                    <img src="assets/img/icons/database.svg" alt="SQL logo">
+                </div>
+                <div class="col">
+                    <img src="assets/img/icons/photoshop1.svg" alt="PHOTOSHOP logo">
+                </div>
+            </div>
+        </section>
+        <p id="contact"></p>
+        <section class="contact">
+            <div>
+                <h3 class="color">Contactez-moi<span>contact</span></h3>
+            </div>
+            <br><br><br><br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus labore, odio id qui aliquid dolorem, repellendus facere similique magni delectus dolores tenetur quos, perspiciatis possimus consequuntur suscipit laudantium minima consectetur?</p>
+            <div class="box">
+                <div class="innerBox">
+                    <form action="">
+                        <input type="text" placeholder="Nom">
+                        <br>
+                        <br>
+                        <input type="text" placeholder="Email">
+                        <br><br>
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                    </form>
+                    <br>
+                    <div class="button">
+                        <button class="colorButton">Envoyer le message</button>
+                    </div>
+                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2903.4581610252826!2d5.367697315486485!3d43.30466757913478!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12c9c0eb8678dca9%3A0x17e14e158f103c9c!2s8%20Rue%20d&#39;hozier%2C%2013002%20Marseille!5e0!3m2!1sfr!2sfr!4v1616358092945!5m2!1sfr!2sfr"
+                    style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <img class="logo" src="assets/img/promo2.svg" alt="logo">
+        <div>
+            <p>Morad LABRID</p>
+        </div>
+        <div class="social">
+            <a href="https://www.facebook.com/Moradii.84" target="_blank"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://www.instagram.com/Moradii.84" target="_blank"><i class="fab fa-instagram-square"></i></a>
+            <a id="snap"><i class="fab fa-snapchat-square"></i></a>
+            <a href="https://www.linkedin.com/in/moradii84" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/morad-labrid" target="_blank"><i class="fab fa-github-square"></i></a>
+            <div class="snap"></div>
+        </div>
+    </footer>
+    <div class="cursor"></div>
+    <div class="cursor2"></div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/vanilla.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
